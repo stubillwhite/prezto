@@ -100,7 +100,7 @@ zstyle ':prezto:module:utility:diff' color 'no'
 # zstyle ':prezto:module:history-substring-search' globbing-flags ''
 
 #
-# OS X
+# macOS
 #
 
 # Set the keyword used by `mand` to open man pages in Dash.app
