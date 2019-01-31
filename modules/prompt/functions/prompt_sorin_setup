@@ -145,11 +145,12 @@ function prompt_sorin_setup {
   # Set python-info parameters.
   zstyle ':prezto:module:python:info:virtualenv' format '%f%F{3}(%v)%F{7} '
 
+  # [SBW] Disable display of return value completely
   # Set up non-zero return value display
-  local show_return="✘ "
+  local show_return=""
   # Default is to show the return value
   if zstyle -T ':prezto:module:prompt' show-return-val; then
-    show_return+='%? '
+    show_return+='✘ %? '
   fi
 
   # Get the async worker set up.
